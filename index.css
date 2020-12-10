@@ -1,0 +1,93 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(128,0,0);
+}
+
+.logo {
+    width: 100vw;
+    height: 12vh;
+}
+
+p {
+    text-align: center
+}
+
+#title-ar {
+    font-size: 350%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cairo', sans-serif;
+    color: rgb(212,175,55)
+}
+
+#title-bg {
+    font-size: 400%;
+    font-family: 'Parisienne', cursive;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgb(212,175,55)
+}
+
+#sub-text, #sub-text, #date, #timing, #location-line-1, #location-line-2, #map-link  {
+    font-size: 150%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(212,175,55)
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+a {
+    color: rgb(212,175,55)
+}
+
+@media (min-width:320px) and (max-width: 600px) {
+
+    .logo {
+        width: 200vw;
+        height: 3vh;
+    }
+
+    #title-ar {
+        font-size: 120%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Cairo', sans-serif;
+        color: rgb(212,175,55)
+    }
+    
+    #title-bg {
+        font-size: 170%;
+        font-family: 'Parisienne', cursive;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: rgb(212,175,55)
+    }
+    
+    #sub-text, #sub-text, #date, #timing, #location-line-1, #location-line-2, #map-link  {
+        font-size: 120%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Roboto', sans-serif;
+        color: rgb(212,175,55)
+    }
+
+}
